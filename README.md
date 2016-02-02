@@ -1,3 +1,3 @@
-# statedb
+# nabu-extractor
 
-Save your app state!
+Extract and store i18n messages from your codebase

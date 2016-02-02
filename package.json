@@ -1,7 +1,7 @@
 {
   "name": "nabu-extractor",
   "version": "0.1.0",
-  "description": "",
+  "description": "Extract and store i18n messages from your codebase",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "babel src --out-dir lib",
