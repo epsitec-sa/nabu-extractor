@@ -18,7 +18,7 @@ const initialState = nabuState ? transit.fromJSON (nabuState) : initState;
 const store        = createStore (nabuReducer, initialState);
 store.subscribe ( () => {
   const state = store.getState ();
-  const nabuState = transit.toJSON (state.nabu);
+  const nabuState = transit.toJSON (state);
   NabuDb.saveState ('nabu', nabuState);
 });
 
