@@ -26,7 +26,7 @@
     "mkdirp": "^0.5.1",
     "redux": "^3.5.2",
     "redux-nabu": "^0.5.2",
-    "statedb": "^2.0.0",
+    "statedb": "^2.1.0",
     "transit-immutable-js": "^0.6.0"
   },
   "devDependencies": {
