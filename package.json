@@ -4,7 +4,7 @@
   "description": "Extract and store i18n messages from your codebase",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test/**/*.js",
+    "test": "mocha test/**/*.spec.js",
     "test:watch": "npm run test -- --watch"
   },
   "repository": {
